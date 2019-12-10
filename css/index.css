@@ -66,6 +66,30 @@ html body {
   }
 }
 
+@media (min-width: 48rem) {
+  html .Section:first-child {
+    margin-top: 3rem;
+  }
+}
+
+.Section:last-child {
+  margin-bottom: -4rem;
+}
+.Section:nth-of-type(odd) {
+  background: #f4f4f4;
+}
+@media (min-width: 48rem) {
+  html .Section {
+    margin: 0;
+    padding: 2.5rem 2rem;
+  }
+}
+.Section {
+  display: block;
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
+
 .Row {
   display: flex;
   flex-direction: column;
