@@ -1,0 +1,62 @@
+@media (min-width: 48rem) {
+  .Footer {
+    padding: 3rem 2rem;
+  }
+}
+
+.Footer {
+  background-color: #f4f4f4;
+  box-shadow: 0 50vh 0 50vh #f4f4f4, inset 0 0.25rem 0 0 #e8e8e8;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.Footer-inner {
+  margin: 2rem auto 0;
+  max-width: 87.5rem;
+}
+
+@media (min-width: 48rem) {
+  html .Footer-items {
+    flex-direction: row;
+  }
+}
+
+.Footer-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.Footer-copyright:not(:first-child) {
+  margin-top: 1rem;
+}
+.Footer-copyright {
+  color: #1d1d1d;
+  font: 300 1rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+}
+
+.Footer-item {
+  font: 300 0.888rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+}
+
+@media (min-width: 48rem) {
+  .Footer-item:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.Footer-link {
+  color: #1d1d1d;
+  display: inline-block;
+  font: 300 1rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+  padding: 0.25rem 0;
+}
+
+.Footer-logo {
+  max-width: 120px;
+  margin-top: 2rem;
+}

@@ -1,0 +1,73 @@
+.PullQuote {
+  box-shadow: inset 0.25rem 0 0 #d8127d;
+  color: #d8127d;
+  font: 600 1.602rem/2rem proxima-nova, sans-serif;
+  margin: 1.5rem 0 2rem 0;
+  max-width: 36rem;
+  padding-left: 1.5rem;
+  padding-top: 4.5rem;
+  position: relative;
+}
+
+.PullQuote:before {
+  content: "\201C";
+  font: 600 10.544rem/11rem proxima-nova, sans-serif;
+  left: 1rem;
+  line-height: 0;
+  margin-top: 5rem;
+  position: absolute;
+  top: -0.5rem;
+}
+
+@media (min-width: 32rem) {
+  .ProminentBlockQuote {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.ProminentBlockQuote {
+  background-color: #d8127d;
+  padding: 2rem 2rem 3rem;
+  text-align: center;
+}
+
+.ProminentBlockQuote-children {
+  color: #fff;
+  font: 300 1.602rem/2rem proxima-nova, sans-serif;
+  margin: 0 auto;
+  max-width: 43rem;
+  padding-top: 6rem;
+  position: relative;
+}
+
+.ProminentBlockQuote-children:before {
+  content: "\201C";
+  display: block;
+  font: 600 10.544rem/11rem proxima-nova, sans-serif;
+  left: 0;
+  line-height: 0;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+}
+
+.ProminentBlockQuote-children:after {
+  content: "\201D";
+}
+
+.ProminentBlockQuote-blue {
+  background-color: #00999c;
+}
+
+.ProminentBlockQuote-pink {
+  background-color: #d8127d;
+}
+
+.ProminentBlockQuote-yellow {
+  background-color: yellow;
+}
+
+.ProminentBlockQuote-purple {
+  background-color: purple;
+}

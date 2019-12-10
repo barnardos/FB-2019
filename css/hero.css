@@ -1,0 +1,63 @@
+.Hero.Hero--pink,
+.Hero--pink.Hero--withImage .Hero-inner {
+  background-color: #d8127d;
+}
+
+.Hero.Hero--blue,
+.Hero--blue.Hero--withImage .Hero-inner {
+  background-color: #00999c;
+}
+
+.Hero {
+  color: #fff;
+  margin: 0;
+}
+
+.Hero--withTexture {
+  background-position: 100% -110px;
+  background-size: cover;
+}
+
+.Hero--withImage {
+  background-position: 100% -30px;
+  background-size: cover;
+  height: 50vmin;
+  margin-bottom: 4rem;
+  max-height: 30rem;
+  min-height: 30rem;
+  position: relative;
+}
+
+@media (min-width: 48rem) .Hero--withImage .Hero-inner {
+  left: 2rem;
+}
+
+.Hero--withImage .Hero-inner {
+  bottom: -4rem;
+  left: 2rem;
+  max-width: 40rem;
+  padding: 1.5rem;
+  position: absolute;
+  right: 1rem;
+}
+
+@media (min-width: 48rem) {
+  html .Hero-inner {
+    padding: 4rem 3rem;
+  }
+}
+
+.Hero-inner {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 40rem) {
+  .Title {
+    font: 600 2.887rem/3.25rem proxima-nova, sans-serif;
+  }
+}
+
+.Title {
+  font: 600 2.566rem/3rem proxima-nova, sans-serif;
+  max-width: 80rem;
+}

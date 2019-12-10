@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+}
+
+@media (min-width: 44rem) {
+  html body {
+    font-size: 112.5%;
+  }
+}
+@media (min-width: 40rem) {
+  html body {
+    font-size: 106.25%;
+  }
+}
+@media (min-width: 36rem) {
+  html body {
+    font-size: 100%;
+  }
+}
+
+html body {
+  background: #fff;
+  color: #1d1d1d;
+  font-size: 93.75%;
+}
+
+@media (min-width: 48rem) {
+  html .Layout {
+    padding: 0 1rem 2rem;
+  }
+}
+
+.Layout {
+  padding: 0 1rem 1rem;
+}
+
+.Main {
+  display: block;
+  margin: 2rem auto 0;
+  max-width: 87.5rem;
+}
+
+.Content {
+  margin: 2rem 0;
+}
+
+@media (min-width: 58rem) {
+  html .Row {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  html .Row-three .Column {
+    max-width: 30%;
+  }
+
+  .Column {
+    max-width: 48%;
+  }
+}
+
+.Row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+}
+
+html .Row-three .Column img {
+  margin: 3rem auto;
+  max-width: 70%;
+}
+
+.Column img {
+  max-width: 90%;
+  margin: 1rem 0;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.leaderBio .Subheading,
+.leaderBio .Topic {
+  margin-bottom: 0.25rem;
+}
+
+.leaderBio img {
+  float: left;
+  max-width: 120px;
+  margin: 0 2rem 3rem 0;
+}
+
+.leaderBio {
+  clear: both;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
