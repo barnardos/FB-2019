@@ -13,7 +13,7 @@
 
 .Heading {
   font: 600 2.027rem/2.75rem proxima-nova, sans-serif;
-  max-width: 36rem;
+  margin-bottom: 1.25rem;
 }
 
 .Subheading {
