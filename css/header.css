@@ -44,14 +44,14 @@
 
 @media (min-width: 58rem) {
   html .Header-logo {
-    max-width: 10rem;
+    max-width: 22rem;
     margin-top: 0.4rem;
   }
 }
 
 .Header-logo {
   display: block;
-  max-width: 8rem;
+  max-width: 18rem;
   margin-top: 1rem;
 }
 
