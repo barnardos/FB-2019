@@ -1,18 +1,17 @@
 @media (min-width: 48rem) {
-  .Footer {
-    padding: 3rem 2rem;
+  html .Footer {
+    padding: 2rem;
   }
 }
 
 .Footer {
-  background-color: #f4f4f4;
-  box-shadow: 0 50vh 0 50vh #f4f4f4, inset 0 0.25rem 0 0 #e8e8e8;
+  background-color: #222;
   padding: 2rem 1rem;
   position: relative;
 }
 
 .Footer-inner {
-  margin: 2rem auto 0;
+  margin: 1rem auto 0;
   max-width: 87.5rem;
 }
 
@@ -29,16 +28,16 @@
 }
 
 .Footer-copyright:not(:first-child) {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .Footer-copyright {
-  color: #1d1d1d;
-  font: 300 1rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+  color: #ccc;
+  font: 300 1rem/1.45rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
     Cantarell, Noto Sans, sans-serif;
 }
 
 .Footer-item {
-  font: 300 0.888rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+  font: 300 1rem/1.45rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
     Cantarell, Noto Sans, sans-serif;
 }
 
@@ -48,10 +47,18 @@
   }
 }
 
+.Footer a:hover {
+  text-decoration: none;
+}
+
+.Footer a {
+  color: #ccc;
+}
+
 .Footer-link {
-  color: #1d1d1d;
+  color: #ccc;
   display: inline-block;
-  font: 300 1rem/1.25rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+  font: 300 1.2rem/1.65rem system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
     Cantarell, Noto Sans, sans-serif;
   padding: 0.25rem 0;
 }
@@ -59,4 +66,5 @@
 .Footer-logo {
   max-width: 120px;
   margin-top: 2rem;
+  opacity: 0.7;
 }

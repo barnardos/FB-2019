@@ -42,7 +42,7 @@ html body {
 
 .Main {
   display: block;
-  margin: 1.4rem auto 0;
+  margin: 1.2rem auto 0;
   max-width: 87.5rem;
 }
 
@@ -105,9 +105,15 @@ html body {
   width: 100%;
 }
 
+@media (min-width: 58rem) {
+  html body .Row-three .Column img {
+    max-width: 80%;
+  }
+}
+
 html .Row-three .Column img {
-  margin: 3rem auto;
-  max-width: 70%;
+  margin: 2rem auto;
+  max-width: 50%;
 }
 
 .Column img {

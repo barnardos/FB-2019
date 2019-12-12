@@ -1,5 +1,6 @@
 .Header {
   background-color: #d8127d;
+  box-shadow: inset 0px -1px 0 0 #e45ba6;
   color: #fff;
   margin: 0 -1rem;
   padding: 1rem;
@@ -37,6 +38,13 @@
   }
 }
 
+@media (min-width: 58rem) {
+  .Header-logoLink {
+    padding-right: 1.6rem;
+    display: block;
+  }
+}
+
 .Header-actions {
   display: flex;
   justify-content: space-between;
@@ -45,14 +53,14 @@
 @media (min-width: 58rem) {
   html .Header-logo {
     max-width: 22rem;
-    margin-top: 0.4rem;
+    margin: 0.2rem 0 0 0;
   }
 }
 
 .Header-logo {
   display: block;
   max-width: 18rem;
-  margin-top: 1rem;
+  margin-bottom: -0.5rem;
 }
 
 @media (min-width: 58rem) {

@@ -8,33 +8,56 @@
   background-color: #00999c;
 }
 
+@media (min-width: 48rem) {
+  .Hero {
+    margin: 0;
+  }
+}
+
 .Hero {
   color: #fff;
-  margin: 0;
+  margin: 0 0 3rem 0;
+}
+
+@media (min-width: 100rem) {
+  html .Hero-wrap {
+    max-width: 88rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Hero-wrap {
+  max-width: 100rem;
+  margin: 0 -1rem;
 }
 
 .Hero--withTexture {
   background-position: 100% -110px;
+  background-opactiy: 0.8;
   background-size: cover;
+  margin: 0 -1rem;
 }
 
 .Hero--withImage {
-  background-position: 100% -30px;
   background-size: cover;
-  height: 50vmin;
-  margin-bottom: 4rem;
-  max-height: 30rem;
-  min-height: 30rem;
+  height: 60vmin;
+  max-height: 60rem;
+  min-height: 20rem;
   position: relative;
+  width: 100%;
 }
 
-@media (min-width: 48rem) .Hero--withImage .Hero-inner {
-  left: 2rem;
+@media (min-width: 48rem) {
+  html .Hero--withImage .Hero-inner {
+    bottom: -2rem;
+    left: 2rem;
+  }
 }
 
 .Hero--withImage .Hero-inner {
-  bottom: -4rem;
-  left: 2rem;
+  bottom: -6rem;
+  left: 1rem;
   max-width: 40rem;
   padding: 1.5rem;
   position: absolute;
