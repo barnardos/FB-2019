@@ -1,6 +1,6 @@
 .Hero.Hero--pink,
 .Hero--pink.Hero--withImage .Hero-inner {
-  background-color: #d8127d;
+  background-color: #cc0070;
 }
 
 .Hero.Hero--blue,
@@ -32,11 +32,16 @@
   margin: 0 -1rem;
 }
 
-.Hero--withTexture {
-  background-position: 100% -110px;
-  background-opactiy: 0.8;
-  background-size: cover;
+.Hero--withTexture .Hero-inner {
+  background-color: #cc0070;
+  background-image: linear-gradient(180deg, #b70768 25%, #b70768 100%);
   margin: 0 -1rem;
+}
+
+@media (min-width: 80rem) {
+  .Hero--withImage {
+    background-position: 100% -42px;
+  }
 }
 
 .Hero--withImage {
@@ -66,12 +71,12 @@
 
 @media (min-width: 48rem) {
   html .Hero-inner {
-    padding: 4rem;
+    padding: 3rem 4rem;
   }
 }
 
 .Hero-inner {
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
 }
 
 @media (min-width: 40rem) {

@@ -1,6 +1,6 @@
 .Header {
-  background-color: #d8127d;
-  box-shadow: inset 0px -1px 0 0 #e45ba6;
+  background-color: #cc0070;
+  box-shadow: inset 0px -1px 0 0 #b70768;
   color: #fff;
   margin: 0 -1rem;
   padding: 1rem;
@@ -80,7 +80,7 @@
 }
 
 .Header-menu {
-  background-color: #c11070;
+  background-color: #b70768;
   margin: 2rem -1rem 0 -1rem;
 }
 
@@ -116,6 +116,12 @@
 .Menu-item-active .Menu-link {
   padding: 0.75rem 0;
   border-bottom: #fff solid 2px;
+}
+
+@media (max-width: 58rem) {
+  html .Menu-link {
+    margin: 0 0.75rem;
+  }
 }
 
 @media (min-width: 72rem) {
