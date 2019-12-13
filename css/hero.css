@@ -33,8 +33,9 @@
 }
 
 .Hero--withTexture .Hero-inner {
-  background-color: #cc0070;
-  background-image: linear-gradient(180deg, #b70768 25%, #b70768 100%);
+  background-color: #b70768;
+  color: #fff;
+  /* background-image: linear-gradient(180deg, #b70768 25%, #b70768 100%); */
   margin: 0 -1rem;
 }
 
@@ -80,12 +81,12 @@
 }
 
 @media (min-width: 40rem) {
-  .Title {
+  .Hero .Title {
     font: 600 2.887rem/3.25rem proxima-nova, sans-serif;
   }
 }
 
-.Title {
+.Hero .Title {
   font: 600 2.566rem/3rem proxima-nova, sans-serif;
   max-width: 80rem;
 }
