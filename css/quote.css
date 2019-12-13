@@ -11,7 +11,7 @@
 
 .PullQuote:before {
   content: "\201C";
-  font: 600 10.544rem/11rem proxima-nova, sans-serif;
+  font: 600 10.544rem/11rem georgia, serif;
   left: 1rem;
   line-height: 0;
   margin-top: 5rem;
@@ -29,7 +29,6 @@
 .ProminentBlockQuote {
   background-color: #d8127d;
   padding: 2rem 2rem 3rem;
-  text-align: center;
 }
 
 .ProminentBlockQuote-children {
@@ -44,7 +43,7 @@
 .ProminentBlockQuote-children:before {
   content: "\201C";
   display: block;
-  font: 600 10.544rem/11rem proxima-nova, sans-serif;
+  font: 600 10.544rem/11rem georgia, serif;
   left: 0;
   line-height: 0;
   position: absolute;
