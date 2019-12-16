@@ -69,6 +69,7 @@
     flex: 0 1 8rem;
     margin: 0 2rem 0 4rem;
     position: static;
+    min-width: 50%;
   }
 }
 
