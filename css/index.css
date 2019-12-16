@@ -107,27 +107,9 @@ html body {
   width: 100%;
 }
 
-@media (min-width: 58rem) {
-  html body .Row-three .Column img {
-    max-width: 80%;
-  }
-}
-
-html .Row-three .Column img {
-  margin: 2rem auto;
-  max-width: 50%;
-}
-
-.Column img {
-  max-width: 95%;
-  margin: 1rem 0;
-  height: 100%;
-}
-
 .Column {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .leaderBio .Subheading,
@@ -138,6 +120,7 @@ html .Row-three .Column img {
 .leaderBio img {
   float: left;
   max-width: 120px;
+  max-height: 120px;
   margin: 0 2rem 3rem 0;
 }
 

@@ -110,12 +110,7 @@
   }
 }
 
-.Menu-item-active {
-  margin: 0 0.75rem;
-}
-
 .Menu-item-active .Menu-link {
-  padding: 0.75rem 0;
   border-bottom: #fff solid 2px;
 }
 
