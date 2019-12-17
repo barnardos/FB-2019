@@ -30,6 +30,7 @@
 .Hero-wrap {
   max-width: 100rem;
   margin: 0 -1rem;
+  overflow: hidden;
 }
 
 .Hero--withTexture .Hero-inner {
