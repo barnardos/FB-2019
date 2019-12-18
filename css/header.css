@@ -17,18 +17,18 @@
 
 @media (min-width: 72rem) {
   html body .Header-inner {
-    padding: 1.5rem 2rem 1.5rem;
+    padding: 1.5rem 1rem 1.5rem;
   }
 }
 
 @media (min-width: 58rem) {
   html .Header-inner {
-    padding: 1rem 1.5rem 1rem;
+    padding: 1rem 1rem 1rem;
   }
 }
 
 .Header-inner {
-  padding: 0.5rem 0 1rem;
+  padding: 0.5rem 1rem 1rem;
 }
 
 @media (min-width: 58rem) {

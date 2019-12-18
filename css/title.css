@@ -1,0 +1,65 @@
+.Title {
+    font: 600 2.566rem/3rem proxima-nova,sans-serif;
+    max-width: 80rem;
+}
+
+.Title.Title--pink {
+  color: #cc0070;
+}
+
+.Title.Title--blue {
+  color: #00999c;
+}
+
+.Title.Title--yellow {
+  color: #ec9636;
+}
+
+.Title.Title--purple {
+  color: #69216a;
+}
+
+@media (min-width: 48rem) {
+  .Title {
+    margin: 0;
+  }
+}
+
+.Title {
+  background-color: #fff;
+  /* margin: 0 0 3rem 0; */
+}
+
+@media (min-width: 100rem) {
+  html .Title-wrap {
+    max-width: 88rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Title-wrap {
+  max-width: 100rem;
+  margin: 0 -1rem;
+  text-align: left;
+  padding: 0;
+}
+
+@media (min-width: 48rem) {
+  html .Title-inner {
+    margin: 0;
+    padding: 3rem 2.75rem;
+    /* padding: 3rem 4rem; */
+  }
+}
+
+.Title-inner {
+  margin: 0;
+  padding: 2.5rem 2rem;
+}
+
+@media (min-width: 40rem) {
+  .Title {
+    font: 600 2.887rem/3.25rem proxima-nova, sans-serif;
+  }
+}
