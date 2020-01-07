@@ -50,6 +50,19 @@ html body {
   margin: 2rem 0;
 }
 
+@media (min-width: 58rem) {
+  html .Row {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .Column {
+    max-width: 48%;
+    flex-basis: 48%;
+  }
+}
+
 @media (min-width: 48rem) {
   html .Section:first-child {
     margin-top: 3rem;
@@ -89,6 +102,54 @@ html body {
   html .Column {
     max-width: 48%;
     flex-basis: 48%;
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  padding: 0;
+}
+
+.photos img {
+  display: block;
+  float: left;
+  padding: 10px;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 64rem) {
+  .photos img {
+    width: calc(100% / 4);
+    height: calc(100% / 4);
+  }
+}
+
+@media and (min-width: 48rem) and (max-width: 64rem) {
+  .photos img {
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+  }
+}
+
+@media and (min-width: 30rem) and (max-width: 48rem) {
+  .photos img {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+  }
+}
+
+@media and (min-width: 20rem) and (max-width: 30rem) {
+  .photos img {
+    width: calc(100% / 1);
+    height: calc(100% / 1);
   }
 }
 
