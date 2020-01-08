@@ -125,31 +125,30 @@ html body {
   flex: 0 0 auto;
 }
 
-@media (min-width: 64rem) {
+/* For mobile phones: */
   .photos img {
-    width: calc(100% / 4);
-    height: calc(100% / 4);
+    width: 100%;
+    height: 100%;
   }
-}
 
-@media and (min-width: 48rem) and (max-width: 64rem) {
-  .photos img {
-    width: calc(100% / 3);
-    height: calc(100% / 3);
+  @media only screen and (min-width: 37.5rem) {
+    .photos img {
+      width: calc(100%/2);
+      height: calc(100%/2);
+    }
   }
-}
 
-@media and (min-width: 30rem) and (max-width: 48rem) {
-  .photos img {
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+  @media only screen and (min-width: 48rem) {
+    .photos img {
+      width: calc(100%/3);
+      height: calc(100%/3);
+    }
   }
-}
 
-@media and (min-width: 20rem) and (max-width: 30rem) {
+@media only screen and (min-width: 64rem) {
   .photos img {
-    width: calc(100% / 1);
-    height: calc(100% / 1);
+    width: calc(100%/4);
+    height: calc(100%/4);
   }
 }
 
