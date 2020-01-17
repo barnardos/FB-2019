@@ -14,9 +14,11 @@
 		<link rel="stylesheet" type="text/css" href="css/typography.css"/>
 		<link rel="stylesheet" type="text/css" href="css/quote.css"/>
 		<link rel="stylesheet" type="text/css" href="css/anchorlinks.css"/>
-    <link rel="stylesheet" type="text/css" href="css/title.css"/>
-		<link rel="preconnect" href="https://p.typekit.com" />
-    <link rel="stylesheet" href="https://use.typekit.net/djy7snj.css" />
+		<link rel="stylesheet" type="text/css" href="css/title.css"/>
+		<link rel="preconnect" href="https://p.typekit.com"/>
+		<link rel="stylesheet" href="https://use.typekit.net/djy7snj.css"/>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="js/burger.js"></script>
 	</head>
 	<body>
 		<div class="Site">
@@ -28,6 +30,10 @@
 							<a class="Header-logoLink" href="index.html" title="Go to the homepage">
 								<img alt="Believe in children Barnardo’s" class="Header-logo" src="assets/futureLogo.png">
 							</a>
+							<button class="Header-trigger-burger" tabindex="-1"><img alt="Open" class="Header-triggerIcon" src="assets/burger.svg"><span class="Header-triggerText">Menu</span>
+							</button>
+							<button class="Header-trigger-cross" tabindex="-1"><img alt="Open" class="Header-triggerIcon" src="assets/cross.svg"><span class="Header-triggerText">Menu</span>
+							</button>
 						</div>
 						<div class="Header-target">
 							<div class="Header-menu">
@@ -67,11 +73,11 @@
 
 					<div class="Callout AnchorLinks">
 						<p>In this section: &nbsp;<a href="#ucd" class="Link">Championing children's voices</a>&nbsp; |
-																																																																																																																																																																															&nbsp;<a href="#partnerships" class="Link">Partnerships</a>&nbsp; |
-																																																																																																																																																																															&nbsp;<a href="#data" class="Link">Data</a>&nbsp; |
-																																																																																																																																																																															&nbsp;<a href="#technology" class="Link">Technology</a>&nbsp; |
-																																																																																																																																																																															&nbsp;<a href="#capabilities" class="Link">Capabilities</a>&nbsp; |
-																																																																																																																																																																															&nbsp;<a href="#it" class="Link">IT</a>
+																																																																																																																																																																																													&nbsp;<a href="#partnerships" class="Link">Partnerships</a>&nbsp; |
+																																																																																																																																																																																													&nbsp;<a href="#data" class="Link">Data</a>&nbsp; |
+																																																																																																																																																																																													&nbsp;<a href="#technology" class="Link">Technology</a>&nbsp; |
+																																																																																																																																																																																													&nbsp;<a href="#capabilities" class="Link">Capabilities</a>&nbsp; |
+																																																																																																																																																																																													&nbsp;<a href="#it" class="Link">IT</a>
 						</p>
 					</div>
 
@@ -83,7 +89,7 @@
 
 								<p class="Paragraph">This year we ran 12 discovery projects to better understand the experiences and challenges of the young people we support, from having a first conversation about mental health to leaving care more confidently. Much of our work focuses on Barnardo’s three core priority programmes (CPPs).</p>
 
-								<br />
+								<br/>
 
 								<h2 class="Subheading">1. Child sexual abuse (CSA)</h2>
 								<ul class="BulletedList">
@@ -103,7 +109,7 @@
 									<li class="ListItem">We won funding from Nominet #RESET Mental Health programme to create a library of design patterns for mental health, working with Barnardo’s business development unit, and partners Snook and Public Policy Lab. These are individual building blocks – best practice modules which Barnardo’s and others can use to develop better, more consistent approaches to children’s mental health support.</li>
 								</ul>
 
-								<br />
+								<br/>
 
 								<h2 class="Subheading">New resources for practitioners and partners</h2>
 								<ul class="BulletedList">
@@ -114,32 +120,27 @@
 								</a>
 							</li>
 						</ul>
-						    <p class="Paragraph">Find out more about our work supporting children here:
-							    <a href="https://future.barnardos.org.uk/transforming-our-services" class="Link">https://future.barnardos.org.uk/transforming-our-services</a>
-						    </p>
-							</div>
-							<div class="Column">
+						<p class="Paragraph">Find out more about our work supporting children here:
+							<a href="https://future.barnardos.org.uk/transforming-our-services" class="Link">https://future.barnardos.org.uk/transforming-our-services</a>
+						</p>
+					</div>
+					<div class="Column">
 
-								<img class="Stickers" alt="Stickers" src="assets/pages/phones.png" style="max-width: 100%;">
-
-								<br />
-								<img class="Stickers" alt="Stickers" src="assets/pages/user-design.jpg" style="max-width: 100%;">
-							</div>
-
-						</div>
+						<img class="Stickers" alt="Stickers" src="assets/pages/phones.png" style="max-width: 100%;">
 
 						<br/>
-
-						<div class="Row">
-
-							<div class="Column">
-
-							</div>
-
-							<div class="Column">
-
-
+						<img class="Stickers" alt="Stickers" src="assets/pages/user-design.jpg" style="max-width: 100%;">
 					</div>
+
+				</div>
+
+				<br/>
+
+				<div class="Row">
+
+					<div class="Column"></div>
+
+					<div class="Column"></div>
 
 				</div>
 
@@ -212,7 +213,7 @@
 						</p>
 					</div>
 					<div class="Column">
-						<img src="assets/pages/dataIQ.jpg" width="100%" style="max-width: 100%; max-height: 37rem;" />
+						<img src="assets/pages/dataIQ.jpg" width="100%" style="max-width: 100%; max-height: 37rem;"/>
 					</div>
 				</section>
 				<!-- data end -->
