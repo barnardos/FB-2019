@@ -43,6 +43,35 @@
   justify-content: space-between;
 }
 
+.Header-triggerText {
+  color: #fff;
+  margin-left: 0.5rem;
+}
+
+.Header-trigger-burger,
+.Header-trigger-cross {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #1d1d1d;
+  display: flex;
+  font: 600 1rem/1.5rem proxima-nova, sans-serif;
+  justify-content: center;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+  white-space: normal;
+}
+
+@media (min-width: 58rem) {
+  .Header-trigger-burger {
+    display: none;
+  }
+}
+
 @media (min-width: 58rem) {
   html .Header-logo {
     margin: 0;
@@ -57,13 +86,18 @@
 }
 
 @media (min-width: 58rem) {
-  .Header-target {
+  html body .Header-target {
     align-self: center;
     flex: 0 1 8rem;
     margin: 0 2rem 0 4rem;
     position: static;
     min-width: 50%;
+    display: block !important;
   }
+}
+
+.Header-target {
+  display: none;
 }
 
 @media (min-width: 58rem) {
