@@ -1,20 +1,19 @@
 .Teasers {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
-    margin: 0;
-    background-color: #f4f4f4;
+  background-color:  #f4f4f4;
+  padding: 2rem 1rem;
+  position: relative;
 }
 
-.Teasers {
+.Teaser-inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    max-width: 87.5rem;
 }
 
 .Teasers>* {
     flex: 0 0 18rem;
-    margin: 1rem;
 }
 
 .Teaser-text {
@@ -28,6 +27,13 @@
     color: #1d1d1d;
     display: block;
     text-decoration: none;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .Teaser {
+    margin-top: 0;
+  }
 }
 
 .Teaser-heading {
